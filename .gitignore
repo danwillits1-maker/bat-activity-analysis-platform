@@ -1,0 +1,29 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+*.docx
+!bat_activity/templates/.gitkeep
+.DS_Store
+tmp/
+
+# Local outputs, source references and development handovers
+/outputs/
+/references/
+/PROJECT_BRIEF.md
+/CURSOR_START_HERE.md
+/AGENTS.md
+/WORKED_EXAMPLE.md
+
+# Credentials and local editor settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+*.log
+Thumbs.db

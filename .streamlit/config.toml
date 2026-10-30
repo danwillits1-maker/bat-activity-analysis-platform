@@ -1,0 +1,30 @@
+[server]
+enableStaticServing = true
+
+[theme]
+base = "light"
+primaryColor = "#E9631A"
+backgroundColor = "#FCFCFC"
+secondaryBackgroundColor = "#FCFCFC"
+textColor = "#02111B"
+font = "Plus Jakarta Sans, sans-serif"
+headingFont = "Plus Jakarta Sans, sans-serif"
+borderColor = "#BDCFD6"
+baseRadius = "0.5rem"
+buttonRadius = "0.4rem"
+showWidgetBorder = true
+dataframeHeaderBackgroundColor = "#DCE9ED"
+dataframeHeaderTextColor = "#344E5A"
+
+[theme.sidebar]
+backgroundColor = "#02111B"
+secondaryBackgroundColor = "#152731"
+textColor = "#FCFCFC"
+borderColor = "#36505B"
+primaryColor = "#E9631A"
+
+[[theme.fontFaces]]
+family = "Plus Jakarta Sans"
+url = "app/static/brand/PlusJakartaSans.ttf"
+weight = "200 800"
+style = "normal"
